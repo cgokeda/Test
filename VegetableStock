@@ -1,0 +1,8 @@
+VegetableStock = np.array([
+    [15,19,12],
+    [41,18,14],
+    [11,32,16]
+])
+VegetableStock_df = pd.DataFrame(VegetableStock, columns=['Store 1', 'Store 2', 'Store 3'])
+print(VegetableStock_df.shape)
+VegetableStock_df
